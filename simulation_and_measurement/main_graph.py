@@ -15,7 +15,7 @@ from animations import generate_energy_seats_curve_animation, \
 
 graph = nx.grid_graph([18,18])
 '''
-uncomment to recreate ensemble
+uncomment to recreate ensemble; testing 
 
 ensemble = generate_district_ensemble(graph=graph,
                                       num_districts=6,
